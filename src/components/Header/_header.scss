@@ -1,0 +1,32 @@
+.navbar {
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+    .signUp {
+        background-color: #fff;
+        border: red;
+        width: 60px;
+        font-size: 15px;
+    }
+
+    .navbar__links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px 0 10px;
+
+        .posts,
+        .about {
+            text-decoration: none;
+            margin-right: 10px;
+            color: #000;
+            font-size: 15px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

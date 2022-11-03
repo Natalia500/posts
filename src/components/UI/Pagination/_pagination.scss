@@ -1,0 +1,15 @@
+.btnPaganation {
+    display: flex;
+    margin-top: 10px;
+
+    .page {
+        border: 2px solid darkgreen;
+        padding: 5px 19px;
+        margin: 3px;
+        cursor: pointer;
+    }
+
+    .page__current {
+        border: 2px solid darkblue;
+    }
+}
